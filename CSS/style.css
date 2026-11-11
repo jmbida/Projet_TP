@@ -105,3 +105,16 @@ footer{
     color: white;
     text-align: center;
 }
+
+/* =========================== Contact =================================== */
+
+.entete-page{
+    height: 200px;
+    background-color: gainsboro;
+    text-align: center;
+    align-content: center;
+}
+
+.entete-page p{
+    margin-top: 20px;
+}
