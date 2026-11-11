@@ -5,11 +5,14 @@
 
 /* --------------------- header style --------------------- */
 header{
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
-    background-color: midnightblue;
+    background-color: #2E3440;
     color: white;
     padding: 12px 20px;
+    
 }
 
 .menu ul{
@@ -34,7 +37,15 @@ header{
     width: 80px;
 
 }
+/* --------------------- banner style --------------------- */
+#banner{
+    height: 250px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 
+}
 /* --------------------- main style --------------------- */
 main{
     height: 400px;
@@ -42,7 +53,7 @@ main{
 
 /* --------------------- footer style --------------------- */
 footer{
-    background-color: midnightblue;
+    background-color: #2E3440;
     padding: 16px 0px;
 
 }
