@@ -42,13 +42,56 @@ header{
     height: 250px;
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
 
 }
 /* --------------------- main style --------------------- */
 main{
-    height: 400px;
+    margin: 20px 35px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #2E3440;
+    border-radius: 12px;
+    padding: 24px;
+    width: 500px;
+}
+
+.card .titre{
+    border-left: 5px solid orange;
+    padding-left: 12px;
+    color:blue;
+}
+.card:last-child .titre{
+    
+    color:green;
+}
+
+.card p{
+    
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#conteneur-tech{
+
+    border-left: 5px solid orange;
+    margin-left: 12px;
+    margin-top: 16px;
+}
+
+#conteneur-tech ul{
+    padding-left: 16px;
+}
+#conteneur-tech ul li::marker{
+    color: orange;
+}
+#conteneur-tech ul li{
+    line-height: 1.6;
 }
 
 /* --------------------- footer style --------------------- */
