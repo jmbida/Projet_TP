@@ -15,6 +15,11 @@ header{
     
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
 .menu ul{
     list-style: none;
     display: flex;
@@ -117,4 +122,31 @@ footer{
 
 .entete-page p{
     margin-top: 20px;
+}
+
+/* =========================== Menu deroulant =================================== */
+
+#menu{
+    position: relative;
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background-color: #34495e;
+    min-width: 50px;
+    height: auto;
+    z-index: 10;
+    padding: 5px;
+}
+
+#dropdown li{
+    text-align: center;
+    align-content: center;
+    text-wrap: none;
+}
+
+#menu:hover #dropdown{
+    display: block;
 }
